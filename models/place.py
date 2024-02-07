@@ -7,9 +7,9 @@ class Place(BaseModel):
     """Class a place.
 
     Attributes:
+        city_id (str): The City id.
 	user_id (str): The User id.
 	name (str): The Name of the Place.
-        city_id (str): The City id.
         description (str): The Description of the Place.
         number_rooms (int): The number of Rooms of the Place.
         number_bathrooms (int): The number of Bathrooms of the Place.
@@ -19,9 +19,9 @@ class Place(BaseModel):
         longitude (float): The longitude of the Place.
         amenity_ids (list): A list of Amenity ids.
     """
+        city_id = ""
 	user_id = ""
     	name = ""
-    	city_id = ""
         description = ""
     	number_rooms = 0
     	number_bathrooms = 0
