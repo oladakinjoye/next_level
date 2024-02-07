@@ -35,7 +35,7 @@ class BaseModel:
         models.storage.save()
 
     def to_dict(self):
-        """returns a dict containing
+        """returns a dictionary containing
 
 	all keys-values of __dict__:the BaseModel instance.
         """
