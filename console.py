@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This defines the FileStorage Class."""
+"""This define the FileStorage Class."""
 import json
 from models.base_model import BaseModel
 from models.user import User
@@ -14,7 +14,7 @@ class FileStorage:
     """This is an abstracted storage engine.
 
     Attributes:
-        __file_path (str): The name of the file to save objects into.
+        __file_path (str): The name of the file to save objects to.
         __objects (dict): The Dictionary of instantiated objects.
     """
     __file_path = "file.json"
